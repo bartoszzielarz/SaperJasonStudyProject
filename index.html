@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+    <script src="skrypt.js"></script>
+    <title>Tytuł strony / podstrony</title>
+</head>
+
+<body>
+    <header>
+        <h1>Miny - TIGBiE</h1>
+    </header>
+
+    <section>
+        <p>
+            Czas: <span id="time"></span>
+        </p>
+        <table id="plansza">
+        </table>
+        <br>
+        <div>
+            <p>
+                <ul>
+
+                    <input id="wielkoscPlanszy" type="text" placeholder="wielkość planszy">
+                    <br>
+                    <br>
+                    <input id="bomby" type="text" placeholder="ilość bomb">
+                </ul>
+                <button id="Refresh" style="width: 20%; height: 20%;" onclick="Refresh()"> Rozpocznij grę</button>
+            </p>
+        </div>
+        <p>
+            <ul>
+                <li>Kliknięcie lewym przyciskiem myszki, to oznaczenie bomby.</li>
+                <li>Podwójne kliknięcie lewym przyciskiem myszki, to odkrycie pola. </li>
+            </ul>
+        </p>
+    </section>
+    <footer>
+        <p>
+            <p>Copyright &copy; 2013 jkozak.pl</p>
+        </p>
+    </footer>
+</body>
+
+</html>
